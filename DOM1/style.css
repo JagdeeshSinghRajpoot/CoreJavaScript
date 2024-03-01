@@ -1,0 +1,16 @@
+#box {
+  height: 400px;
+  width: 200px;
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+.Detail{
+  color: blue;
+}
+
+.newClass{
+  background-color: green;
+}

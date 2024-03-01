@@ -1,4 +1,4 @@
-console.log("hello");
+// console.log("hello");
 
 // console.dir(document.body);
 
@@ -14,16 +14,24 @@ console.log("hello");
 // console.log(pera); 
 
 
-let element = document.querySelector("p");
-console.log(element);
+// let element = document.querySelector("p");
+// console.log(element);
 
 
-let allElement = document.querySelectorAll("p");
-console.log(allElement);
+// let allElement = document.querySelectorAll("p");
+// console.log(allElement);
 
-let hading = document.querySelector("#hadding");
-console.dir(hading);
+// let hading = document.querySelector("#hadding");
+// console.dir(hading);
 
-let perag = document.querySelector(".CHading");
-console.dir(perag);
+// let perag = document.querySelector(".CHading");
+// console.dir(perag);
 
+let newBtn = document.createElement("button");
+newBtn.innerHTML="click me";
+
+newBtn.style.color = "white";
+newBtn.style.backgroundColor = "red";
+
+let body = document.querySelector("body");
+body.prepend(newBtn);
